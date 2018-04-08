@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ingrese hora en formato 24h"/>
+        android:text="@string/hout_title"/>
 
 <LinearLayout
     android:layout_width="wrap_content"
@@ -21,18 +21,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hora: "
+        android:text="@string/hora_Text"
         android:textSize="18sp"
-        android:layout_marginRight="8dp"/>
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp" />
     <EditText
         android:id="@+id/hour"
         android:layout_width="wrap_content"
         android:layout_height="47dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:hint="Hora"
+        android:hint="@string/hora_hint"
         android:inputType="number" />
 
 </LinearLayout>
@@ -45,34 +44,34 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Minutos: "
+            android:text="@string/min_text"
             android:textSize="18sp"
-            android:layout_marginRight="8dp"/>
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp" />
         <EditText
             android:id="@+id/minutes"
             android:layout_width="wrap_content"
             android:layout_height="47dp"
             android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
             android:layout_marginTop="8dp"
-            android:hint="Minutos"
+            android:hint="@string/min_hint"
             android:inputType="number" />
 
     </LinearLayout>
     <EditText
+        android:id="@+id/desc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Descripcion"/>
+        android:hint="@string/desc_hint"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:inputType="text"/>
 
     <Button
         android:id="@+id/send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Set Alarm"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/minutes"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/set_alarm_butt_text"
+        android:layout_marginTop="8dp" />
 
 </LinearLayout>
