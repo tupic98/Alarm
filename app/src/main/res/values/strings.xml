@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">SetAlarm</string>
+    <string name="hout_title">Ingrese hora en formato 24h</string>
+    <string name="hora_Text">Hora:</string>
+    <string name="hora_hint">Hora</string>
+    <string name="min_text">Minutos:</string>
+    <string name="min_hint">Minutos</string>
+    <string name="desc_hint">Descripcion</string>
+    <string name="set_alarm_butt_text">Set Alarm</string>
 </resources>
